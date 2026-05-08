@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo Cuenta Tienda"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-10 07:49:16 a.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTA5OzA4OjUxOjAyIHAu4oCvbS47MTExODM="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTEwOzA3OjQ5OjE2IGEu4oCvbS47MjsxMTI4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ValorB, ValorP, Total" type="Integer" array="False" size=""/>
+            <declare name="NoAlcanza" type="String" array="False" size=""/>
+            <input variable="ValorP"/>
+            <input variable="ValorB"/>
+            <if expression="ValorP&lt;ValorB">
+                <then>
+                    <assign variable="Total" expression="ValorB-ValorP"/>
+                    <output expression="Total" newline="True"/>
+                </then>
+                <else>
+                    <output expression="NoAlcanza" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

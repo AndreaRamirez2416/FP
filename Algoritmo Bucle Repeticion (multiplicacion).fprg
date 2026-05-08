@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo Bucle Repeticion (multiplicacion)"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-23 09:34:54 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTIzOzA5OjEzOjAwIHAu4oCvbS47MTExNzY="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTIzOzA5OjM0OjU0IHAu4oCvbS47MTsxMTI5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="3&amp;&quot;x&quot;&amp;i&amp;&quot;=&quot;&amp;i*3" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

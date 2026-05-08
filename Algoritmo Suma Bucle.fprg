@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo Suma Bucle"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-30 06:30:05 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTMwOzA2OjI0OjQxIHAu4oCvbS47MTExNzg="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTMwOzA2OjMwOjA1IHAu4oCvbS47MzsxMTI4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Real" array="False" size=""/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="8&amp;&quot;+&quot;&amp;i&amp;&quot;=&quot;&amp;i" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

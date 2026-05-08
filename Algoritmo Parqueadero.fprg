@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo Parqueadero"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 09:32:48 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTE2OzA5OjIzOjE2IHAu4oCvbS47MTExODY="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTE2OzA5OjMyOjQ4IHAu4oCvbS47MTsxMTI5OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="PrecioHora, CantidadHoras, Total" type="Real" array="False" size=""/>
+            <input variable="CantidadHoras"/>
+            <input variable="PrecioHora"/>
+            <assign variable="Total" expression="CantidadHoras*PrecioHora"/>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

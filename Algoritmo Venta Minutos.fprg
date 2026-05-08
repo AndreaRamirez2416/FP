@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo Venta Minutos"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 09:37:18 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTE2OzA5OjMyOjUyIHAu4oCvbS47MTExODY="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTE2OzA5OjM3OjE4IHAu4oCvbS47MTsxMTMwMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="TiempoLlamada, ValorMinuto, Total" type="Real" array="False" size=""/>
+            <input variable="TiempoLlamada"/>
+            <input variable="ValorMinuto"/>
+            <assign variable="Total" expression="TiempoLlamada*ValorMinuto"/>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

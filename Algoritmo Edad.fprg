@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo Edad"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 09:15:51 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTE2OzA4OjQxOjQzIHAu4oCvbS47MTExODU="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTE2OzA5OjE1OjUxIHAu4oCvbS47MTsxMTI5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A&#241;oA, A&#241;oN, Edad" type="Integer" array="False" size=""/>
+            <input variable="A&#241;oN"/>
+            <input variable="A&#241;oA"/>
+            <assign variable="Edad" expression="A&#241;oA-A&#241;oN"/>
+            <output expression="Edad" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

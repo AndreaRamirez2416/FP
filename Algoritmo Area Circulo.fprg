@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo Area Circulo"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-11 02:52:25 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTExOzAyOjQwOjM4IHAu4oCvbS47MTExNzc="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTExOzAyOjUyOjI1IHAu4oCvbS47MTsxMTI4NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Radio, Area" type="Real" array="False" size=""/>
+            <input variable="Radio"/>
+            <assign variable="Area" expression="PI*Radio^2"/>
+            <output expression="Area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

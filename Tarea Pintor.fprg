@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Tarea Pintor"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-16 11:11:00 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTE2OzEwOjQ3OjUxIHAu4oCvbS47MTExODM="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTE2OzExOjExOjAwIHAu4oCvbS47MTsxMTI3Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Area, Largo, Ancho, Total, ValorM2" type="Real" array="False" size=""/>
+            <input variable="Largo"/>
+            <input variable="Ancho"/>
+            <input variable="ValorM2"/>
+            <assign variable="Area" expression="Largo*Ancho"/>
+            <assign variable="Total" expression="Area*ValorM2"/>
+            <output expression="Total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

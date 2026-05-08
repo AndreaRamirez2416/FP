@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo Saber si es Negativo o Positivo"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-23 07:49:23 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTIzOzA3OjEwOjA5IHAu4oCvbS47MTExODA="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTIzOzA3OjQ5OjIzIHAu4oCvbS47MTsxMTI5Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero" type="Real" array="False" size=""/>
+            <input variable="Numero"/>
+            <if expression="Numero&gt;0">
+                <then>
+                    <output expression="&quot;positivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;negativo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

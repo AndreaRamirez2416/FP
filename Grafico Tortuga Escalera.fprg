@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Grafico Tortuga Escalera"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-30 07:13:32 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTMwOzA2OjMwOjE5IHAu4oCvbS47MTExODA="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTMwOzA3OjEzOjMyIHAu4oCvbS47MTsxMTI4NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, Cantidad" type="Integer" array="False" size=""/>
+            <input variable="Cantidad"/>
+            <for variable="i" start="1" end="Cantidad" direction="inc" step="1">
+                <forward expression="100" pen="down"/>
+                <turn expression="90" rotate="right"/>
+                <forward expression="100" pen="down"/>
+                <turn expression="90" rotate="left"/>
+            </for>
+            <turn expression="180" rotate="right"/>
+            <forward expression="Cantidad*100" pen="down"/>
+            <turn expression="270" rotate="left"/>
+            <forward expression="Cantidad*100" pen="down"/>
+        </body>
+    </function>
+</flowgorithm>

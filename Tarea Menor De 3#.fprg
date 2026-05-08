@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Tarea Menor De 3#"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-23 07:09:59 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTE2OzExOjMzOjI2IHAu4oCvbS47MTExODE="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTIzOzA3OjA5OjU5IHAu4oCvbS47MjsxMTMwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numero1, Numero2, Numero3, Menor" type="Real" array="False" size=""/>
+            <input variable="Numero1"/>
+            <input variable="Numero2"/>
+            <input variable="Numero3"/>
+            <if expression="Numero1&lt;Numero2">
+                <then>
+                    <assign variable="Menor" expression="Numero1"/>
+                </then>
+                <else>
+                    <assign variable="Menor" expression="Numero2"/>
+                </else>
+            </if>
+            <if expression="Menor&lt;Numero3">
+                <then/>
+                <else>
+                    <assign variable="Menor" expression="Numero3"/>
+                </else>
+            </if>
+            <output expression="Menor" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

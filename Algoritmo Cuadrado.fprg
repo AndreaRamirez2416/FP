@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Algoritmo Cuadrado"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-09 08:37:10 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTA5OzA4OjMxOjM0IHAu4oCvbS47MTExODY="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA0LTA5OzA4OjM3OjEwIHAu4oCvbS47MTsxMTI5NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <home/>
+            <forward expression="100" pen="down"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="100" pen="down"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="100" pen="down"/>
+            <turn expression="90" rotate="right"/>
+            <forward expression="100" pen="down"/>
+        </body>
+    </function>
+</flowgorithm>
