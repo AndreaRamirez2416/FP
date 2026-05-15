@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Promedio Ciclo Hacer"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-14 07:46:22 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA1LTE0OzA2OjMzOjExIHAu4oCvbS47MTExNzg="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA1LTE0OzA3OjQ2OjIyIHAu4oCvbS47MTsxMTI5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, Cantidad, Suma, Promedio, Edad" type="Integer" array="False" size=""/>
+            <input variable="Cantidad"/>
+            <assign variable="i" expression="1"/>
+            <assign variable="Suma" expression="0"/>
+            <do expression="i&lt;=Cantidad">
+                <input variable="Edad"/>
+                <assign variable="Suma" expression="Suma+Edad"/>
+                <assign variable="i" expression="i+1"/>
+            </do>
+            <assign variable="Promedio" expression="Suma/Cantidad"/>
+            <output expression="Promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

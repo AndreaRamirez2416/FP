@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Promedio Ciclo Para"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-14 07:28:54 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA1LTE0OzA2OjMzOjE0IHAu4oCvbS47MTExODE="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA1LTE0OzA3OjI4OjU0IHAu4oCvbS47MTsxMTI5OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i, Edad, Promedio, Cantidad, Suma" type="Integer" array="False" size=""/>
+            <input variable="Cantidad"/>
+            <assign variable="Suma" expression="0"/>
+            <for variable="i" start="1" end="Cantidad" direction="inc" step="1">
+                <comment text="Pido la edad"/>
+                <input variable="Edad"/>
+                <assign variable="Suma" expression="Suma+Edad"/>
+            </for>
+            <assign variable="Promedio" expression="Suma/Cantidad"/>
+            <output expression="Promedio" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
