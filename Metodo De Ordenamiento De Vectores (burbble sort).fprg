@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Metodo De Ordenamiento De Vectores (burbble sort)"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-04 01:49:43 a.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA2LTA0OzAxOjAwOjQ1IGEu4oCvbS47MTExNTk="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA2LTA0OzAxOjA4OjE0IGEu4oCvbS47MTthbmRyZTtIUENBUk9SQU1JUkVaOzIwMjYtMDUtMjg7MDc6MjI6MzYgcC7igK9tLjtNZXRvZG8gRGUgT3JkZW5hbWllbnRvIERlIFZlY3RvcmVzIChJbnNlcmNpb24gc29ydCkuZnByZzsyNzc3Mg=="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA2LTA0OzAxOjQ5OjQzIGEu4oCvbS47MTsxMTI3OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="V" type="Integer" array="True" size="7"/>
+            <declare name="P, J, Temp" type="Integer" array="False" size=""/>
+            <call expression="CrearVector(V)"/>
+            <for variable="P" start="0" end="7-2" direction="inc" step="1">
+                <for variable="J" start="0" end="7-2-P" direction="inc" step="1">
+                    <if expression="V[J+1]&lt;V[J]">
+                        <then>
+                            <assign variable="Temp" expression="V[J]"/>
+                            <assign variable="V[J]" expression="V[J+1]"/>
+                            <assign variable="V[J+1]" expression="Temp"/>
+                        </then>
+                        <else/>
+                    </if>
+                </for>
+            </for>
+        </body>
+    </function>
+    <function name="CrearVector" type="None" variable="">
+        <parameters>
+            <parameter name="Numeros" type="Integer" array="True"/>
+        </parameters>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="6" direction="inc" step="1">
+                <input variable="Numeros[i]"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

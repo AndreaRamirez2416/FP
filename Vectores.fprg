@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Vectores"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-28 07:22:32 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA1LTI4OzA2OjM4OjQ4IHAu4oCvbS47MTExOTg="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA1LTI4OzA3OjIyOjMyIHAu4oCvbS47MTsxMTI5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Numeros" type="Integer" array="True" size="10"/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <for variable="i" start="0" end="9" direction="inc" step="1">
+                <input variable="Numeros[i]"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

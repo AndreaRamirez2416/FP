@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ACTIVIDAD PLANO CARTESIANO"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-18 07:14:59 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA2LTE4OzA3OjA3OjMwIHAu4oCvbS47MTExODY="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA2LTE4OzA3OjE0OjU5IHAu4oCvbS47MTsxMTMwMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LONG, X1, X2, Y1, Y2" type="Real" array="False" size=""/>
+            <input variable="X1"/>
+            <input variable="X2"/>
+            <input variable="Y1"/>
+            <input variable="Y2"/>
+            <assign variable="LONG" expression="SQRT(((X2-X1)^2)+((Y2-Y1)^2))"/>
+            <output expression="LONG" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

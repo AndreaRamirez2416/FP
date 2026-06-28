@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="PIRAMIDE"/>
+        <attribute name="authors" value="andre"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-11 09:32:36 p.&#8239;m."/>
+        <attribute name="created" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA2LTExOzA3OjE2OjQ4IHAu4oCvbS47MTExODg="/>
+        <attribute name="edited" value="YW5kcmU7SFBDQVJPUkFNSVJFWjsyMDI2LTA2LTExOzA5OjMyOjM2IHAu4oCvbS47MTsxMTI5Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, L, H, VOL, AREA, APOTHEM" type="Real" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="L"/>
+            <input variable="H"/>
+            <assign variable="VOL" expression="CalcularVolumen(A,L,H)"/>
+        </body>
+    </function>
+    <function name="CalcularVolumen" type="Real" variable="VOLUMEN">
+        <parameters>
+            <parameter name="ANCHO" type="Real" array="False"/>
+            <parameter name="LARGO" type="Real" array="False"/>
+            <parameter name="ALTURA" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="VOLUMEN" type="Real" array="False" size=""/>
+            <assign variable="VOLUMEN" expression="(ANCHO*LARGO*ALTURA)/3"/>
+        </body>
+    </function>
+</flowgorithm>
